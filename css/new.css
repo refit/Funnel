@@ -92,3 +92,9 @@
 .legend li:nth-of-type(6) {
 	border-color: #34C8CA;
 }
+
+@media screen and (max-width:960px) {
+	.prev, .next {
+		display: none !important;
+	}
+}
