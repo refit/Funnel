@@ -97,4 +97,8 @@
 	.prev, .next {
 		display: none !important;
 	}
+	
+	#chart {
+		margin-left: 0;
+	}
 }
