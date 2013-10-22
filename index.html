@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Funnel</title>
+    <link rel="stylesheet" href="css/gumby.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- FontAwesome support for IE7 -->
+    <!--[if lt IE 8]>
+      <link rel=stylesheet href="css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/new.css">
+
+    <script src="js/libs/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.easing.1.2.js"></script>
+    <script src="js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="js/imgliquid-min.js"></script>
+    <script src="js/libs/gumby.min.js"></script>
+    <script src="js/libs/gumby.init.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/funnel-data.js"></script>
+    <script src="js/funnel.js"></script>
+    
+    <script src="js/jquery.anchor-smooth.js"></script>
+    <script src="js/new.js"></script>
+  </head>
+  <body>
+  	<div class="page-wrap">
+  		<!-- Home Section
+      ================================================== -->
+  		<section class="home">
+  			<div class="container">
+  				<div class="row">
+                    <div class="twelve columns alpha">
+                        <div class="two columns logo">
+                            <a href="/dev/funnel/"><img src="img/logo.png" /></a>
+                        </div>
+
+                        <div class="seven columns pull_right push_three">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li><a href="#follow-money">follow the money</a></li>
+                                    <li><a href="#case-study">case studies</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="eleven columns centered home-blurb">
+          			    <h1>It's a funnel, not rocket science.</h1>
+                        <p>Follow the money in Oil and Gas with funnel
+                        <br>
+                        <small style="color: #888;">STEP 1. Follow the Money &nbsp;&nbsp;—&nbsp;&nbsp; STEP 2. See Case Studies</small>
+                        </p>
+
+                        <div class="three columns centered home-button">
+                           <a href="#follow-money">Follow The Money</a>
+                        </div>
+                    </div>
+  				</div>
+  			</div>
+  		</section>
+  		<!-- / home -->
+
+  		<!-- Main Navigation
+      ================================================== -->
+      <nav class="main-nav" style="display:none">
+      	<ul>
+      		<li><a href="">follow the money</a></li>
+      		<li><a href="">case studies</a></li>
+      	</ul>
+      </nav>
+      <!-- / main-nav -->
+
+      <!-- Follow the Money
+      ================================================== -->
+      <section class="follow-money" id="follow-money">
+      	<div class="section-head">
+      		<div class="row">
+	      		<h2>Follow the Money.</h2>
+	      		<p>This section tracks the revenue flow to the government from the oil and gas sector. The revenue flow is broken <br>down to the respective revenue streams. Data from 2006-2011 has been made available<br> and will be updated as new information is made available.</p>
+      		</div>
+      	</div>
+      	<div class="row data-stage clearfix">
+      		<div class="data-tab">
+	      		<div class="container">
+	      			<div class="carousel-nav">
+	      				<a href="" class="prev">
+	      					<i class="icon-chevron-sign-left icon-large"></i>
+	      				</a>
+	      				<a href="" class="next">
+	      					<i class="icon-chevron-sign-right icon-large"></i>
+	      				</a>
+	      			</div>
+		      		<ul class="revenue-tabs">
+		      			<li class="a revenue-stream active" data-stream="Sales from Crude Oil and Gas" data-content="This represents the proceeds from the sales of crude oil and gas production in the industry that is shared to the Federation in accordance with the operating and financing agreements.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Sales from Crude Oil & Gas</h3>
+				      				<p>This represents the proceeds from the sales of crude oil and...</p>
+				      			</div>
+			      			</a>
+		      			</li>
+		      			<li class="b revenue-stream" data-stream="Petroleum Profit Tax (PPT)" data-content="The taxable income of a petroleum company comprises proceeds from the sale of oil and related substances used by the company in its own refineries plus any other income of the company incidental to and arising from its petroleum operations.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Petroleum Profit Tax (PPT)</h3>
+				      				<p>The taxable income of a petroleum company comprises...
+                      </p>
+			      				</div>
+		      				</a>
+		      			</li>
+		      			<li class="c revenue-stream" data-stream="Royalty (Oil & Gas)" data-content="The cash value paid by the companies to the government based on a percentage of gross production from the property, free and clear of all costs. Royalties for oil and gas received by the government over the years have been outlined here.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Royalty (Oil &amp; Gas)</h3>
+			      					<p>The cash value paid by the companies to the government...</p>
+			      				</div>
+		      				</a>
+		      			</li>
+    			 		<li class="a revenue-stream" data-stream="Contributions to NDDC" data-content="The Niger Delta Development Commission (NDDC) is an agency established in 2000 with the primary aim of developing the Niger Delta region, learn more about them <a href='http://www.nddc.gov.ng/' target='_blank'>here</a>.<br><br>All companies operating in the region are required to contribute 3% of their total annual budget to NDDC in order to fund its operations.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Contributions to NDDC</h3>
+				      				<p>The NDDC is an agency established in 2000 with the...</p>
+				      			</div>
+			      			</a>
+		      			</li>
+		      			<li class="b revenue-stream" data-stream="Education Tax" data-content="An education tax of 2% of assessable profits is imposed on all companies incorporated in Nigeria. This tax is viewed as a social obligation placed on all companies in ensuring that they contribute their own quota in developing educational facilities in the country.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Education Tax</h3>
+				      				<p>An education tax of 2% of assessable profits is imposed...</p>
+			      				</div>
+		      				</a>
+		      			</li>
+		      			<li class="c revenue-stream" data-stream="Companies Income Tax" data-content="This is payable for each year of assessment of the profits of any company at a rate of 30%. These include profits accruing in, derived form brought into or received from a trade, business or investment.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Companies Income Tax</h3>
+			      					<p>This is payable for each year of assessment of the profits...</p>
+			      				</div>
+		      				</a>
+		      			</li>
+		      			<li class="a revenue-stream" data-stream="PAYE" data-content="A withholding tax on income payments to employees. Amounts withheld are treated as advance payments of income tax due. They are refundable to the extent they exceed tax as determined on tax returns. PAYE may include withholding the employee portion of insurance contributions or similar social benefit taxes." data-explanation="PAYE (Pay As You Earn) is the system that HM Revenue & Customs (HMRC) uses to collect Income Tax and National Insurance contributions from employees (including directors of limited companies).">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>PAYE</h3>
+				      				<p>A withholding tax on income payments to employees. Amounts...</p>
+				      			</div>
+			      			</a>
+		      			</li>
+		      			<li class="b revenue-stream" data-stream="Signature Bonuses" data-content="Payment is made up front to the host country for the right to develop a block commercially before work begins. This system is a widely recognised and legally accepted way for an oil company to secure the right to explore a certain field or block. It is also important to note that paying a signature bonus for a licence does not necessarily imply future revenues for the company from oil production in the same licence." data-explanation="The signature bonus system is common in many oil-producing countries. A payment is made up front to the host country for the right to develop a block commercially before work begins.">
+		      				<a href="">
+			      				<div class="tab-cap"></div>
+			      				<div class="tab-copy">
+			      					<div class="icon"><i class="icon-signal icon-large"></i></div>
+				      				<h3>Signature Bonuses</h3>
+				      				<p>Payment is made up front to the host country for the right to...</p>
+			      				</div>
+		      				</a>
+		      			</li>
+		      		</ul>
+	      		</div>
+	      	</div>
+	      	<div class="data-content clearfix twelve columns">
+	      		<div class="four columns">
+	      			<h4 class="revenue-header">
+	      				<span class="revenue-explanation-cont">
+		      				<span class="revenue-explanation">
+		      					<span class="triangle"></span>
+		      				</span>
+		      			</span>
+	      				<span class="revenue-span">Sales from Crude Oil and Gas</span>
+	      			</h4>
+	      			<p class="revenue-content">This represents the proceeds from the sales of crude oil and gas production in the industry that is shared to the Federation in accordance with the operating and financing agreements.</p>
+	      			<div class="share">
+	      				<strong>SHARE THIS INFOMATION</strong>
+		      			<ul class="socialShare">
+									<li>
+										<a href="http://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com/')">Share (f)</a>
+									</li>
+									<li>
+										<a href="http://twitter.com/intent/tweet?url=http://startupsthisishowdesignworks.com/&amp;text=Startups, This Is How Design Works: A guide to understanding digital %26 physical product design for startups%20by%20@wr&amp;related=wr" target="_blank" class="shareTw">Share (t)</a>
+									</li>
+								</ul>
+							</div>
+	      		</div>
+	      		<div class="eight columns data-charts">
+	      			<div class="controls clearfix">
+		      			<span class="key-label"><strong>VALUES IN USD ($'000)</strong></span>
+		      			<div class="pills">
+		      				<ul>
+		      					<li class="left-pill chart-style" data-chart="line"><a href="">Line</a></li>
+		      					<li class="chart-style" data-chart="doughnut"><a href="">Doughnut</a></li>
+		      					<li class="right-pill chart-style" data-chart="bar"><a href="">Bar</a></li>
+		      				</ul>
+		      			</div>
+	      			</div>
+	      			<div id"chart-div" style="width: 570px;height:370px">
+	      				<canvas id="chart" width="570" height="370"></canvas>
+	      			</div>
+	      			<ul class="legend">
+	      				<li>2006</li>
+	      			    <li>2007</li>
+	      			    <li>2008</li>
+	      			    <li>2009</li>
+	      			    <li>2010</li>
+	      			    <li>2011</li>
+	      			</ul>
+	      		</div>
+	      	</div>
+      	</div>
+      </section>
+      <section class="case-study" id="case-study">
+        <div class="container">
+          <div class="row">
+            <div class="seven columns">
+              <div class="image">
+                <img src="img/oil.jpg" alt="">
+              </div>
+            </div>
+            <div class="four columns push_one case-content">
+              <h2> Case Study </h2>
+              <p>This section raises questions with regards to the expected outcomes from some of the revenue streams. Two key areas are focused on: the contributions to the Niger Delta Development (NDDC) and the TETfund. The expectations are outlined but the current reality is also highlighted.</p>
+              <div>
+                 <a href="case-study.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  	</div>
+
+    <script>
+    	$(function() {
+    		var slider = $('.revenue-tabs').bxSlider({
+				  minSlides: 3,
+				  maxSlides: 3,
+				  slideWidth: 980,
+				  slideMargin: 0,
+				  pager: false,
+				  infiniteLoop: false,
+				  pagerType: 'short'
+				});
+
+				$("a.next").on("click", function() {
+					slider.goToNextSlide();
+					return false;
+				})
+				$("a.prev").on("click", function() {
+					slider.goToPrevSlide();
+					return false;
+				})
+    	});
+    </script>
+  </body>
+</html>
